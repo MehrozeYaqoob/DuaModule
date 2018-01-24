@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/if_blue</item>
+        <item name="colorPrimaryDark">@color/if_blue</item>
+        <item name="colorAccent">@color/if_blue</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_white</item>
+        <item name="colorControlNormal">@color/color_white</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoTitleBar.WithBackground" parent="MyMaterialTheme.Base">
+    </style>
+
+    <style name="DrawerArrowStyle_white" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/color_white</item>
+    </style>
+
+
+</resources>
